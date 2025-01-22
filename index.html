@@ -1,261 +1,187 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>tea house</title>
-    <!-- tailwindand daisyui style -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.6/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <!-- font style -->
+    <title>Document</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
-
-    <script src="https://kit.fontawesome.com/db4a2d52ba.js" crossorigin="anonymous"></script>
-
-    <!-- tailwind color config -->
-    <script>
-        tailwind.config = {
-          theme: {
-            extend: {
-              colors: {
-                clifford: '#da373d',
-              }
-            }
-          }
-        }
-      </script>
-
-    <style>
-        .font-manrope{
-            font-family:"Manrope", sans-serif; 
-        }
-    </style>
-    
+    <link
+        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/style.css">
 </head>
-<body class="font-manrope">
-    <header class="container mx-auto">
-        <div class="hero ">
-            <div class="hero-content flex-col lg:flex-row">  
-              <div>
-                <h1 class="text-7xl font-bold">It's good 
-                    tea time at The Tea House</h1>
-                <p class="py-6"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.</p>
-                <button class="btn  bg-orange-500 text-white">Explore More</button>
-              </div>
-                 <div>
-                      <img src="/images/banner.png" class="max-w-sm "/>
-                      <div class="flex items-center -mt-20  gap-4 drop-shadow-lg bg-white rounded-md p-5  w-60">
-                      <i class="fa-solid fa-star text-amber-500"  ></i>
-                        <div>
-                           <h3 class="text-3xl">5.00</h3>
-                           <p>Trust Pilot Ratings</p>
-                        </div>
-                  </div>
-                </div>
-            </div>
-          </div>
 
-    </header>
-    <main class="container mx-auto">
-        <section class="text-center my-24">
-            <h3 class="text-5xl font-extrabold mb-5 ">Our Featured Products</h3>
-            <p class="mx-auto mb-10 lg:max-w-3xl"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. 
-            </p>
-            <!-- card section -->
-            <div class="grid gap-4 grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-              <!-- 1st card -->
-                 <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl   p-6">
-                    <figure>
-                       <img src="/images/tea-1.png"alt="Shoes" />
-                    </figure>
-                      <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Milk Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
-                      </div>
-                 </div>
-                 <!-- 2nd card -->
-                 <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl   p-6">
-                  <figure>
-                     <img src="/images/tea-2.png"alt="Shoes" />
-                  </figure>
-                    <div class="card-body justify-center">
-                      <h2 class="text-2xl font-bold">Black Tea</h2>
-                      <p>Creamer could be replaced by fresh milk</p>
-                    </div>
-               </div>
-               <!-- 3th card -->
-               <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl   p-6">
-                <figure>
-                   <img src="/images/tea-3.png"alt="Shoes" />
-                </figure>
-                  <div class="card-body justify-center">
-                    <h2 class="text-2xl font-bold">Lemon Tea</h2>
-                    <p>Creamer could be replaced by fresh milk</p>
-                  </div>
-             </div>
-             <!-- 4th card -->
-             <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl   p-6">
-              <figure>
-                 <img src="/images/tea-4.png"alt="Shoes" />
-              </figure>
-                <div class="card-body justify-center">
-                  <h2 class="text-2xl font-bold">Green Tea</h2>
-                  <p>Creamer could be replaced by fresh milk</p>
-                </div>
-                 </div>
-              </div>
-        </section>
-                     <!-- great tea fresh tea section -->
-            <section class="my-24 flex gap-12 flex-col lg:flex-row">
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 flex-1">
-                <div class="rounded-xl bg-gradient-to-r from-red-100 to-amber-100 h-36"></div>
-                  <div class="row-span-2 bg-[#E6A6231A] rounded-lg px-8 py-12 flex justify-center items-center"><img src="/images/fresh-1.png" alt="">
-                  </div>
-                  <div class="row-span-2 bg-[#5776391A] rounded-lg px-8 py-12 flex justify-center items-center"><img src="/images/fresh-2.png" alt="">
-                  </div>
-                  <div class="rounded-xl bg-gradient-to-r from-[#D9D9D9] to-[#FFFFFF] h-36"></div>
-              </div>
-              <div class="space-y-5 flex-1 ">
-                <h3 class="text-5xl font-extrabold">Great Tea, Freshly<br> Presented</h3>
-                 <p>The meaning of gong cha is chanese is to provide the best tea to emperor from all possessions . It represents the highest quality and self expectation. Establishing in 2006, Gong cha had been deeply appreciated by its custoers  because of good words of mouth and unique customized service orginated from Taiwan.</p>
-                   <h4 class="text-xl font-extrabold ">Unique Taste</h4>
-                <p>A Unique and different style from other teapots gives a luxurious and minimalist impression</p>
-                <h4 class="text-xl font-extrabold mt-8 ">Premium Quality</h4>
-                <p>Premium Quality that makes tea more elegant and more durable when you use it.</p>
-              </div>
-            </section>
-            <!-- supper client -->
-            <section class=" flex flex-col lg:flex-row gap-12 my-24 rounded-lg bg-gradient-to-r from-[#ff8938] to-[#F00] px-16 py-24">
-              <div class="space-y-5">
-               <div class="flex items-center">
-                     <h2 class="text-5xl font-extrabold text-white">Meet Our Super<br> Clients</h2>
-                    <p class="text-white">There are many variations of passages of Lorem Ipsum  available,  but the majority have suffered alteration in some form, by injected  humour, or randomised words which don't look even slightly believable. </p>
-                   <button class="btn bg-white">Show All</button>
-               </div>
-              </div>
-              <div class="relative">
-                <!-- next reviw -->
-                 <div class="relative mb-16 opacity-40 p-10 z-10 rounded-lg bg-white">
-                  <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="/images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold mt-5">Ilham Yuda</h4>
-                  <p class="font-medium">Businessman</p>
-                  <div class="flex justify-end">
-                    <img src="/images/circles.png" alt="">
-                  </div>
-                 </div>
-                 <!--current  reviw -->
-                 <div class="absolute top-40 -left-32 z-20 lg:w-[430px] p-10 rounded-lg bg-white">
-                  <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="/images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold mt-5">Ilham Yuda</h4>
-                  <p class="font-medium">Businessman</p>
-                  <div class="flex justify-end">
-                    <img src="/images/circles.png" alt="">
-                  </div>
-                 </div>
-                 <!--previous reviw -->
-                 <div class="relative opacity-40 p-10 z-10 rounded-lg bg-white">
-                  <img class="absolute -top-5 -left-5 border-4 border-white rounded-full" src="/images/client.png" alt="">
-                  <p>We are providing the best and suitable home insurance services for the people who are interested to treatment</p>
-                  <h4 class="font-bold mt-5">Ilham Yuda</h4>
-                  <p class="font-medium">Businessman</p>
-                  <div class="flex justify-end">
-                    <img src="/images/circles.png" alt="">
-                  </div>
-                 </div>
-              </div>
-            </section>
-            <!-- News & Events section -->
-             <section class="text-center gap-8">
-              <div>
-                <h3 class="text-5xl font-extrabold mb-5 ">News & Events</h3>
-            <p class="mx-auto mb-10 lg:max-w-3xl"> There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable.  
-            </p>
-              </div>
-              <div class="grid gap-10 grid-cols-1  md:grid-cols-2 lg:grid-cols-3">
-                <!-- 1st card -->
-                   <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl border-2 border-black p-6">
-                      <figure>
-                         <img src="/images/news-1.png"alt="Shoes" />
-                      </figure>
-                        <div class="card-body justify-center">
-                          <h2 class="text-2xl font-bold">Milk Tea</h2>
-                          <p>Creamer could be replaced by fresh milk</p>
-                        </div>
-                   </div>
-                   <!-- 2nd card -->
-                   <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl  border-2 border-black p-6">
-                    <figure>
-                       <img src="/images/news-2.png"alt="Shoes" />
-                    </figure>
-                      <div class="card-body justify-center">
-                        <h2 class="text-2xl font-bold">Black Tea</h2>
-                        <p>Creamer could be replaced by fresh milk</p>
-                      </div>
-                 </div>
-                 <!-- 3th card -->
-                 <div class="card bg-gradient-to-r from-[#F4F4F4] to-[#F4F4F4] shadow-xl  border-2 border-black p-6">
-                  <figure>
-                     <img src="/images/news-3.png"alt="Shoes" />
-                  </figure>
-                    <div class="card-body justify-center">
-                      <h2 class="text-2xl font-bold">Lemon Tea</h2>
-                      <p>Creamer could be replaced by fresh milk</p>
-                    </div>
-               </div>
-                </div>
-             </section>
-    </main>
-    <footer class=" px-4
-                                                                                                                                                                                                     lg:px-48 py-10 bg-base-200 text-base-content mt-20 p-48">
-      <div class="flex justify-between">
-        <img src="/images/cup.png" alt="">
-        <p><span>Ready to get strated?</span></p>
-        <button class="btn btn-primary">Get Started</button>
-      </div>
-      <div class="footer">
+<body>
+    <header class="header">
         <nav>
-          <h6 class="footer-title">Services</h6>
-          <a class="link link-hover">Branding</a>
-          <a class="link link-hover">Design</a>
-          <a class="link link-hover">Marketing</a>
-          <a class="link link-hover">Advertisement</a>
+            <h3 class="nav-title">Ma<span class="text-primary">r</span>y</h3>
+            <ul>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="">Blog</a></li>
+                <li><button class="btn-primary">Hire Me</button></li>
+
+            </ul>
         </nav>
-        <nav>
-          <h6 class="footer-title">Company</h6>
-          <a class="link link-hover">About us</a>
-          <a class="link link-hover">Contact</a>
-          <a class="link link-hover">Jobs</a>
-          <a class="link link-hover">Press kit</a>
-        </nav>
-        <nav>
-          <h6 class="footer-title">Legal</h6>
-          <a class="link link-hover">Terms of use</a>
-          <a class="link link-hover">Privacy policy</a>
-          <a class="link link-hover">Cookie policy</a>
-        </nav>
-        <form>
-          <h6 class="footer-title">Newsletter</h6>
-          <fieldset class="form-control w-80">
-            <label class="label">
-              <span class="label-text">Enter your email address</span>
-            </label>
-            <div class="join">
-              <input
-                type="text"
-                placeholder="username@site.com"
-                class="input input-bordered join-item" />
-              <button class="btn btn-primary join-item">Subscribe</button>
+        <div class="banner">
+            <div class="banner-content">
+                <h3 class="banner-greeting">Hi, I am</h3>
+                <h1 class="banner-title">Mary Hardy</h1>
+                <p>A paragraph is defined as “a group of sentences or a single sentence that forms a unit” (Lunsford and
+                    Connors 116). Length and appearance do not determine whether </p>
+                <button class="btn-primary">Download</button>
+                <button class="btn-primary">Contact</button>
+
             </div>
-          </fieldset>
-        </form>
-      </div>
-  <div class="mt-4 text-center">
-    <p>Copyright @ 2024 - All right recerved by ACME Industries Ltd</p>
-  </div>
-</footer>
+            <img class="profile-pic" src="/images/hardy.png" alt="">
+        </div>
+    </header>
+    <main>
+        <section class="about">
+            <h3 class="section-title">About Me</h3>
+            <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae atque
+                culpa adipisci cupiditate, ullam maxime quasi omnis error iste natus, ipsum nisi enim ipsa! Tempore
+                architecto ab tenetur, dolor fugiat nulla ipsa harum voluptate, commodi, id aliquid eius nobis omnis
+                culpa. Eum, neque quis eligendi debitis blanditiis aspernatur. Nihil, voluptatum.</p>
+
+            <div class="about-info-container">
+                <div class="about-info">
+                    <h4 class="info-title">Name:</h4>
+                    <p class="info-description">Mary Hardy</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Email:</h4>
+                    <p class="info-description">info.com</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">Date of birth:</h4>
+                    <p class="info-description">14 november1987</p>
+                </div>
+                <div class="about-info">
+                    <h4 class="info-title">From</h4>
+                    <p class="info-description">Los Angiels Usa</p>
+                </div>
+            </div>
+
+        </section>
+        <!-- what i do section start -->
+        <section>
+            <h3 class="section-title">What I do</h3>
+            <p id="what-i-do-description" class="section-description">Lorem ipsum, dolor sit amet consectetur
+                adipisicing elit. Voluptate inventore, non quia ipsum dignissimos accusamus qui fuga, molestias illum
+                optio architecto. Dolor ex quis quas veritatis, blanditiis cum aspernatur optio eius, neque vel esse aut
+                minus! Incidunt facere sunt nemo dolorum? Cumque, aliquid delectus. Animi veniam eos quibusdam nesciunt
+                rerum?
+
+            </p>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="images/icons/js.png" alt="">
+                    <h3 class="skill-title">Vanilla JavaScript</h3>
+                    <p class="skill-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium,
+                        nemo nihil eligendi voluptatum repellat delectus minima cumque fugiat reiciendis asperiores!</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/react.png" alt="">
+                    <h3 class="skill-title">React</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+                        aliquid maiores tempora reiciendis facere nihil ad veniam ipsam illo provident!</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/nodejs.png" alt="">
+                    <h3 class="skill-title">Node.js</h3>
+                    <p class="skill-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Natus itaque,
+                        aut distinctio magni porro accusamus officia amet ratione quisquam blanditiis!</p>
+                </div>
+                <div class="skill">
+                    <img src="images/icons/mongo.png" alt="">
+                    <h3 class="skill-title">MongoDB</h3>
+                    <p class="skill-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem sit
+                        pariatur earum accusantium atque nesciunt quisquam ab deleniti corrupti molestiae.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Resume section -->
+        <section>
+            <h3 class="section-title">A Summary of My Resume</h3>
+            <div class="resume-container">
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Education</h3>
+
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                            corrupti.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                            Numquam, iusto!</p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Nostrum, voluptas?</p>
+                    </div>
+                </div>
+
+                <div class="resume-column">
+                    <h3 class="resume-column-title">My Experience</h3>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                            corrupti.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                            corrupti.</p>
+                    </div>
+                    <hr>
+                    <div class="resume-item">
+                        <h2 class="resume-item-title">Master in Computer Engineering</h2>
+                        <h3 class="resume-item-institute">Harvard University / 2015 - 2017</h3>
+                        <p class="resume-item-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et,
+                            corrupti.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="download-cv">
+                <button class="btn-primary">Download CV</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-column">
+            <h3 class="section-title">Lets Connect</h3>
+            <p class="section-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reiciendis, quam!
+            </p>
+            <div class="social-links">
+                <a href=""><img src="/images/icons/facebook.png" alt=""></a>
+                <a href=""><img src="/images/icons/twitter.png" alt=""></a>
+                <a href=""><img src="/images/icons/insta.png" alt=""></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <h3 class="section-title">Lets Message me</h3>
+            <form class="Contact" action="">
+                <input type="text" placeholder="Your Name">
+                <input type="Email" placeholder="Your Email" id="">
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+                <input class="btn-primary" type="submit" value="submit">
+            </form>
+        </div>
+    </footer>
 </body>
+
 </html>
